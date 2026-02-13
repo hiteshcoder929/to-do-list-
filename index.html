@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dark.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>to-do list</title>
+</head>
+
+<body>
+    <!-- slider -->
+    <div class="vir-bar"></div>
+    <div class="slider">      
+        <div class="content cont">
+            <div class="set-logo">
+                <h1>settings <i class="fa-solid fa-gear"></i></h1>
+            </div>
+            <div class="theme">
+                <div class="change-bg">
+                    change background:- <i class="fa-solid fa-upload"></i>
+                </div>
+                <div class="mode">
+                    Mode:-
+                    <div class="dark">
+                        <button class="btn seprate">
+                            <i class="fa-solid fa-moon"></i>
+                        </button>
+                    </div>
+                    <div class="light">
+                        <button class="btn seprate">
+                            <i class="fa-regular fa-lightbulb"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="my-work">
+                <h1>my work</h1>
+                <div class="link">
+                    <i class="fa-solid fa-crosshairs"></i>claculator
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-crosshairs"></i>clone
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-crosshairs"></i>flip card
+                </div>
+            </div>
+            <div class="contact">
+                <h1>contacts</h1>
+                <div class="link">
+                    <i class="fa-brands fa-ethereum"></i>instagram
+                </div>
+                <div class="link">
+                    <i class="fa-brands fa-ethereum"></i>telegram
+                </div>
+                <div class="link">
+                    <i class="fa-brands fa-ethereum"></i>facebook
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- mainbody -->
+
+
+    <div class="container">
+        <!-- header -->
+        <div class="head">
+            <div class="head-top">
+                <div class="title">
+                    <h1>To-Do List</h1>
+                </div>
+                <div class="slide-bar">
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+            </div>
+            <div class="head-buttom">
+                <!-- timer -->
+                <div class="timer">
+                    <div class="timer-screen">00:00:00</div>
+                    <div class="function">
+                        <div class="play">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <div class="stop">
+                            <i class="fa-solid fa-stop"></i>
+                        </div>
+                        <div class="reset">
+                            <i class="fa-solid fa-arrow-rotate-left"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- stop watch -->
+                <div class="stop-watch">00:00:00
+                    <div class="function">
+                        <div class="play">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <div class="stop">
+                            <i class="fa-solid fa-stop"></i>
+                        </div>
+                        <div class="reset">
+                            <i class="fa-solid fa-arrow-rotate-left"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- clock -->
+                <div class="time-date">
+                    <div class="date">02/24/2006</div>
+                    <div class="time">12:00</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main body -->
+        <div class="section">
+            <!-- box1 -->
+            <div class="box-1">
+                <!-- left -->
+                <div class="left-section">
+                    <div class="side-wala">
+                        <div class="clear">
+                            <div class="clear-complete">
+                                <button class="btn clear-all">clear all</button>
+                            </div>
+                            <div class="clear-everything">
+                                <button class="btn clear-completed">clear checked task</button>
+                            </div>
+                        </div>
+                        <div class="bar">.......................</div>
+                    </div>
+                    <div class="progress"></div>
+                </div>
+                <!-- right -->
+                <div class="right-section">
+                    <div class="filter">
+                        <label for="filter">
+                            <i class="fa-solid fa-filter"></i>
+                        </label>
+                        <select name="filter" id="filter" class="dropdown">
+                            <option value="all">all</option>
+                            <option value="completed">check</option>
+                            <option value="not-completed">not check</option>
+                        </select>
+                    </div>
+                    <div class="add">
+                        Add Tasks:<button class="btn add-btn">
+                            <i class="fa-notdog fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- box2 -->
+            <div class="box-2">
+                <div class="tasks">
+                    <div class="task">
+                        <div class="check-box">
+                            <input type="checkbox" class="checkbox">
+                        </div>
+                        <span class="text">task 1</span>
+                        <div class="utility">
+                            <div class="uti edit">
+                                <i class="fa-solid fa-pen"></i>
+                            </div>
+                            <div class="uti priority">
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="uti del">
+                                <i class="fa-solid fa-x"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="task">
+                        <div class="check-box">
+                            <input type="checkbox" class="checkbox">
+                        </div>
+                        <span class="text">task 1</span>
+                        <div class="utility">
+                            <div class="uti edit">
+                                <i class="fa-solid fa-pen"></i>
+                            </div>
+                            <div class="uti priority">
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="uti del">
+                                <i class="fa-solid fa-x"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

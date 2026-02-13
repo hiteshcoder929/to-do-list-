@@ -1,0 +1,36 @@
+*{
+    color:rgb(114, 113, 113);
+}
+
+body{
+    filter : brightness(60%)
+}
+
+.container{
+    backdrop-filter: blur(100px);
+    background-color: rgba(61, 61, 61, 0.39);
+}
+
+.vir-bar{
+    background-color: white;
+}
+
+.box-2{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.left-section{
+     background-color: rgba(0, 0, 0, 0.8);
+}
+
+.head{
+    background-color:  rgba(0, 0, 0, 0.397);
+}
+
+.section{
+    background-color:  rgba(0, 0, 0, 0.397);
+}
+
+h1{
+    backdrop-filter: contrast(100%);
+}

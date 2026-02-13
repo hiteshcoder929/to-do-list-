@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    background-image: url(image/background.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(45deg, grey, black, white); */
+}
+
+.container {
+    width: 870px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 35px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(15px);
+    border: solid black 2px;
+    z-index: 0;
+}
+
+.btn{
+    border-style: none;
+}
+
+/* head */
+
+.head {
+    width: 90%;
+    height: 25%;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(50px);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.head-top {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 10px;
+}
+
+.title {
+    margin-left: 40%;
+}
+
+.head-buttom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+h1 {
+    backdrop-filter: blur(100px);
+    background-image: linear-gradient(45deg, rgba(223, 21, 223, 0.3), rgba(55, 55, 231, 0.3));
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+}
+
+.side-bar {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+    margin: -6px;
+    transition: all ease 2s;
+}
+
+
+.stop-watch {
+    backdrop-filter: blur(100px);
+    background-image: linear-gradient(45deg, rgba(223, 21, 223, 0.3), rgba(55, 55, 231, 0.3));
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.time-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(100px);
+    background-image: linear-gradient(45deg, rgba(223, 21, 223, 0.3), rgba(55, 55, 231, 0.3));
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: 8px;
+}
+
+.function {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fa-solid {
+    margin: 4px;
+}
+
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(100px);
+    background-image: linear-gradient(45deg, rgba(223, 21, 223, 0.3), rgba(55, 55, 231, 0.3));
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+/* section-2 */
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 65%;
+    width: 90%;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(50px);
+}
+
+/* section-box-1 */
+
+.box-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 25%;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+.left-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+}
+
+
+.clear {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side-wala {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.progress {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: 8px;
+    background-color: white;
+}
+
+/* right section */
+
+.right-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.filter {
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 4px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.add {
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 4px;
+    padding: 8px;
+    font-size: 0.75rem;
+    border-radius: 5px;
+}
+
+.add-btn {
+    margin: 2px;
+}
+
+.dropdown {
+    width: 70%;
+}
+
+/* section-box-2 */
+
+.box-2 {
+    width: 90%;
+    height: 45%;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+.tasks {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35rem;
+    margin: 5px;
+    height: 3rem;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.checkbox {
+    margin: 19px;
+}
+
+.utility {
+    display: flex;
+}
+
+.uti {
+    margin: 8px;
+    font-size: 1rem;
+}
+
+/* slider */
+
+.slider {
+    z-index: 10;
+    background-color: white;
+    width: 0px;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(15px);
+    border-right: solid black 2px;
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    transition: all ease .8s;
+    transform: rotate(0deg);
+    overflow: hidden;
+    display: flex;
+}
+
+.fa-gear{
+    transition: all ease 0.5s;
+    transform: rotate(0deg);
+}
+
+.fa-gear:active{
+    transform: rotate(360deg);
+}
+
+.content {
+    margin: 20px 20px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+    gap:30px;
+    height: 100%;
+    width: 75%;
+}
+
+.set-logo {
+    font-size: 1.5rem;
+}
+
+.theme{
+    background-color: rgba(131, 54, 231, 0.281);
+    backdrop-filter: blur(15px);
+    margin:10px;
+    padding: 10px;
+    border-radius: 8px;
+    border:solid black 2px;
+}
+
+.mode{
+    display: flex;
+    margin-top:30px;
+    gap:10px;
+}
+
+
+.my-work{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.seprate{
+    border-radius: 50%;
+    backdrop-filter: saturate(7);
+    height: 2.2rem;
+    width: 2.2rem;
+    font-size: 1.5rem;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/* virtical bar */
+
+.vir-bar{
+    background-color: black;
+    width: 40px;
+    height: 101%;
+    position:absolute;
+    left:0px;
+    z-index: 20;
+    border-right: solid black 2px;
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+}
