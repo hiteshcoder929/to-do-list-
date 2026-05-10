@@ -82,9 +82,30 @@
 
         <!-- main body -->
         <div class="section">
-            
+            <div class="a1">
+                <form class="task-input">
+                    <input type="text" id="input" placeholder="write your task">
+                    <button type="submit" class="submit"><i class="fa-solid fa-plus"></i></button>
+                </form>
+            </div>
+            <div class="task-list">
+                <div class="task" id="hidden">
+                    <div class="left">
+                        <input type="checkbox" class="checkbox">
+                        <p class="text">task</p>
+                    </div>
+                    <div class="right">
+                        <div class="delete">
+                            <i class="fa-solid fa-trash"></i>
+                        </div>
+                        <div class="edit">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    <script src="script.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
